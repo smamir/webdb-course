@@ -1,0 +1,446 @@
+/*home and all page template - START*/
+.header {
+/*    border:  1px solid red;*/
+    /* max-width: 100%; */
+    /* height:  150px; */
+/*    background: black;*/
+/*    color: red;*/
+    margin: 0 10% 0;
+    width:  80%;
+}
+
+.header .banner img {
+    width:  100%;
+    height:  200px;
+    margin-bottom: 0;
+}
+
+.header nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.header nav ul li {
+    float: left;
+}
+
+
+.header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    background-color: #111;
+}
+
+
+.content {
+/*    border:  1px solid red;*/
+    width:  80%;
+    /* max-width: 100%; */
+/*    height:  400px;*/
+/*    background: black;*/
+/*    color: red;*/
+    margin: 5px 10% 5px;
+}
+
+.content .left {
+/*    border: 1px solid black;*/
+/*    width: 40%;*/
+    width:  365px;
+    height: 405px;
+    float: left;
+    /* max-width: 100%; */
+/*    background: black;*/
+/*    color: red;*/
+/*    margin: auto;*/
+}
+
+.content .left img {
+    width: 100%;
+    height:  405px;
+    
+}
+
+.content .right {
+/*    border: 1px solid black;*/
+/*    width: 59%;*/
+    width:  657px;
+    max-width: 100%;
+    height: 405px;
+    float: right;
+    margin-left:  5px;
+    margin-bottom: 5px;
+    background-color: #333;
+    color: white;
+}
+
+.content .right h2 {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 20px;
+/*	font-style: normal;*/
+/*	font-variant: normal;*/
+    text-align: center;
+/*
+	font-weight: 500;
+	line-height: 15.4px;
+*/
+}
+
+.content .right .prof {
+    text-align: center;
+    font-size:  18px;
+    font-style: italic;
+}
+
+.content .right .about {
+    font-family: Helvetica;
+	font-size: 16px;
+	line-height: 22.4px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+
+
+.footer {
+/*    border:  1px solid red;*/
+    width:  80%;
+    /* max-width: 100%; */
+    height:  50px;
+    background-color: #333;
+/*    color: red;*/
+    float: left;
+    margin:  0 10% 5px;
+}
+
+.footer .ftr {
+    font-size: 12px;
+    text-align: center;
+    color: azure;
+}
+
+/*home and all page template - END */
+
+/*style for education.html - START*/
+.education {
+    margin: 5px 10% 5px;
+    width: 80%;
+}
+
+.education .university {
+    border-radius: 5px;
+    color: white;
+    background-color: #333;
+    float: left;
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+.education .university h2 , h4 {
+    text-align: center;
+}
+
+.education .university img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding: 0 0 5px;
+/*    width: 100%;*/
+    max-width: 100%;
+    height:  370px;
+    width: 730px;
+}
+
+.education .college {
+    border-radius: 5px;
+    color: white;
+    background-color: #333;
+    float: left;
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+.education .college h2 , h4 {
+    text-align: center;
+}
+
+.education .college img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding: 0 0 5px;
+/*    width: 100%;*/
+    max-width: 100%;
+    height:  370px;
+    width: 730px;
+}
+
+.education .school {
+    border-radius: 5px;
+    color: white;
+    background-color: #333;
+    float: left;
+    margin: 0 0 5px;
+    width: 100%;
+}
+
+.education .school h2 , h4 {
+    text-align: center;
+}
+
+.education .school img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding: 0 0 5px;
+/*    width: 100%;*/
+    max-width: 100%;
+    height:  370px;
+    width: 730px;
+}
+/*style for education.html - END*/
+
+/*style for courses.html - START*/
+
+.courses {
+    margin: 5px 10% 5px;
+    width: 80%;
+}
+
+.courses .spring17 {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: left;
+    height: 300px;
+    margin: 0 10px 5px 0;
+    width: 49%;
+}
+
+.courses .spring17 h1 {
+    text-align: center;
+}
+
+.courses .spring17 ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.courses .fall16 {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: right;
+    height: 300px;
+    margin: 0 0 5px;
+    width: 50%;
+}
+
+.courses .fall16 h1 {
+    text-align: center;
+}
+
+.courses .fall16 ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+/*style for courses.html - END*/
+
+/*style for projects.html - START*/
+.projects {
+    margin: 5px 10% 5px;
+    width: 80%;
+}
+
+.projects .oop {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: left;
+    height: 300px;
+    margin: 0 0 5px 0;
+    width: 49%;
+}
+
+.projects .oop ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.projects .database {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: right;
+    height: 300px;
+    margin: 0 0 5px 0;
+    width: 50%;
+}
+
+.projects .database ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.projects .ai {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: left;
+    height: 300px;
+    margin: 0 0 5px 0;
+    width: 49%;
+}
+
+
+.projects .ai ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px 5px;
+}
+
+.projects .software {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: right;
+    height: 300px;
+    margin: 0 0 5px 0;
+    width: 50%;
+}
+
+.projects .software p {
+    margin: 10px 10px;
+    font-size: 20px;
+}
+
+.projects h1 {
+    margin-left: 10px;
+}
+/*style for projects.html - END*/
+
+/*style for hobby.html - START*/
+
+.hobby {
+    margin: 0 10% 0;
+    width: 80%;
+}
+
+.hobby .photo {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+.hobby .photo h1 {
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px;
+}
+
+.hobby .img_left {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: left;
+    height: 400px;
+    margin: 0 0 5px 0;
+    width: 49%;
+}
+
+.hobby .img_right {
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    float: right;
+    height: 400px;
+    margin: 0 0 5px 0;
+    width: 50%;
+}
+
+.hobby .img_left img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding: 0 0 5px;
+    max-width: 100%;
+    height: inherit;
+}
+
+.hobby .img_right img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding: 0 0 5px;
+    max-width: 100%;
+    height: inherit;
+}
+/*style for hobby.html - END*/
+
+/*style for contact.html - START*/
+
+.contact
+{
+   
+    background: #333;
+    margin: 5px 10% 5px;
+    width: 80%;
+    padding-bottom: 10px;
+/*    padding: 80px 0;*/
+}
+
+.contact p {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 25%;
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;    
+}
+
+.contact .name
+{
+    width: 50%;
+    height: 25px;
+    border-radius: 3px;
+    margin: 5px 25%;
+}
+
+.contact .email
+{  
+    width: 50%;
+    height: 25px;
+    border-radius: 3px;
+    margin: 5px 25%;
+}
+
+.contact .message
+{  
+    width: 50%;
+    height: 200px;
+    border-radius: 3px;
+    margin: 5px 25%;
+}
+
+.contact .btn {
+    width: 10%;
+    height: 25px;
+    border-radius: 3px;
+    margin: 2px 45%;
+/*    padding-bottom: 10px;*/
+}
